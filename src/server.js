@@ -7,7 +7,7 @@ import { nanoid } from "nanoid";
 const { Pool } = pg;
 
 const connection = new Pool({
-  user: "postgres",
+  user: "admin",
   host: "localhost",
   port: 5432,
   database: "shortly_bd",
